@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#home .hero {
+    background: url('picc.avif') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#home .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#home .hero button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#home .hero button:hover {
+    background: #555;
+}
+
+/* Destinations Section */
+#destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#destinations h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destination-cards .card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.destination-cards .card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.destination-cards .card h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.destination-cards .card p {
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact form button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
